@@ -7,7 +7,7 @@ const config = {
     far: 'com.peregrine-cms.sling.launchpad-12-SNAPSHOT-oak_tar_fds_far.far'
   },
   download: {
-    url: 'https://raw.githubusercontent.com/wiki/peregrine-cms/percli/percli-server-install-script-for-kickstarter.md',
+    url: 'http://52.131.246.33:8080/content/uxhubenvironment/assets/install/percli-server-install-script-for-kickstarter.md',
     dir: 'out',
   },
   sling: {

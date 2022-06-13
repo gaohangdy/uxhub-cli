@@ -1,68 +1,67 @@
-# percli - cli tool for peregrine cms
+# uxhubcli - cli tool for UXHub experience platform
 
-### about peregrine-cms
+### about UXHub experience platform
 
-peregrine-cms is an API first headless content management system with a 
-beautiful head built with VueJS
+UXHub is an API first headless experience management system
 
-For more information about this project go to https://www.peregrine-cms.com/
+For more information about this project go to https://www.uxhub-platform.com/
 
 ### about percli
 
-`percli` is a command line tool to accomplish general tasks that arise when 
+`uxhubcli` is a command line tool to accomplish general tasks that arise when 
 working
 
 ### prerequisits
 
-the following tools need to be installed and accessible for percli to be able to work
+the following tools need to be installed and accessible for uxhubcli to be able to work
 
 - Java 11
 - NodeJS 14.16.0 (LTS)
 
-### install percli
+### install uxhubcli
 ```
-npm install @peregrine-cms/percli -g
-```
-
-### install peregrine-cms
-```
-percli server install
+npm install uxhubcli -g
 ```
 
-### start an already installed peregrine-cms instance
-
+### install UXHub experience platform
 ```
-percli server start
-```
-
-### stop a running peregrine-cms instance
-
-```
-percli server stop
+uxhubcli server install
 ```
 
-### check if a peregrine-cms instance is running
+### start an already installed UXHub experience platform instance
 
 ```
-percli server status
+uxhubcli server start
+```
+
+### stop a running UXHub experience platform instance
+
+```
+uxhubcli server stop
+```
+
+### check if a UXHub experience platform instance is running
+
+```
+uxhubcli server status
 ```
 
 ### list installed instances
 
 ```
-percli server list
+uxhubcli server list
 ```
 
 ### running multiple instances
 
-multiple peregrine instances can be installed, started and stopped using the `--name` and `--port` parameters. 
+multiple uxhub instances can be installed, started and stopped using the `--name` and `--port` parameters. 
 
 **note:** by default, an instance named `sling` will run on port `8080`.
 
 to install an instance called `myinstance`, run:
 
 ```
-percli server install --name myinstance --port 8081
+uxhubcli server install --name myinstance --port 8081
 ```
 
 to stop, start and check status of the instance, run:
